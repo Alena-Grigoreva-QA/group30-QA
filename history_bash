@@ -1,0 +1,49 @@
+1  cd Projects
+2  ls -la
+3  mkdir group30_QA
+4  cd group30_QA
+5  touch qq.txt
+6  cp qq.txt qa1
+7  cp qq.txt qa1/qq.txt
+8  mkdir qa1 qa2 qa3
+9  cp qq.txt qa1/qq.txt
+10  touch qa2/file1.txt qa2/file2.txt qa2/file3.txt qa2/file1.json qa2/file2.json
+11  curl http://162.55.220.72:5005/terminal-hw-request
+12  curl --data "name=Acelotl&age=100" http://162.55.220.72:5005/get_method
+13  curl "http://162.55.220.72:5005/get_method?name=Acelotl&age=100"
+14  cd group30_QA
+15  cs Projects
+16  cd Projects
+17  cd group30_QA
+18  chmod +x script_hw1.sh
+19  script_hw1.sh
+20  # ./script_hw1.sh
+21  sh script_hw1.sh
+22  sh script_hw1.sh
+23  sh script_hw1.sh
+24  sh script_hw1.sh
+25  sh script_hw1.sh
+26  sh script_hw1.sh
+27  sh script_hw1.sh
+28  sh script_hw1.sh
+29  sh script_hw1.sh
+30  cp qq.txt Users/User/Course
+31  cp qq.txt Users/User/Course/qq.txt
+32  cp qq.txt /Users/User/Course
+33  cp qq.txt /Users/User/Course/qq.txt
+34  cp qq.txt /Users/User/Course/
+35  PЗPr
+36  find . -name file2.txt
+37  touch log.txt
+38  grep log.txt
+39  tail -f log.txt | grep error
+40  tail -f log.txt | grep error
+41  head -5 log.txt
+42  tail -5 log.txt
+43  less log.txt
+44  date +%d-%m-%Y
+45  cd ..
+46  date +%D %T
+47   date +"%D %T"
+48  date
+49  history

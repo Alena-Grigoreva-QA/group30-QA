@@ -1,0 +1,23 @@
+Telegram nickname: @sumchatoe
+Bug_id: 7
+
+Title: The text "ADD TO HOME SCREEN" gets cut off at the bottom of button at the maximum font size and maximum display scale (screen zoom).
+
+Severity: Trivial
+Priority: low 
+
+Environment: 
+1) Nokia X20, android 12
+2)
+
+Precondition: Choose the maximum font size and maximum display scale/screen zoom in the settings 
+Open the app
+
+STR: Check the UI
+
+AR: the text of "ADD TO HOME SCREEN" gets cut off at the bottom of button.
+
+ER: the text of "ADD TO HOME SCREEN" fits the button
+Attachments: https://drive.google.com/file/d/1N5MvQQ-qOn7InhRGYuvSXT4c6DzE-rrg/view?usp=sharing
+
+
