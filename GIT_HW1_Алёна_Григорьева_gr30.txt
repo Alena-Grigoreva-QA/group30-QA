@@ -1,10 +1,8 @@
-GIT_HW_1
+GIT_HW1 by sumchatoe aka Алёна Григорьева
 
 Для выполнения задания у вас должен быть установлен для Windows - GitBash.
 Создан аккаунт в GitHub
-
 Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
-
 Как отправить ДЗ на проверку.
  1. Создайте текстоовый файл как в первом ДЗ по Terminal.
  2. Сценарий перенесите в этот файл.
@@ -13,40 +11,216 @@ GIT_HW_1
 
 JSON
  4. Создать внешний репозиторий c названием JSON.
+https://github.com/Alena-Grigoreva-QA/JSON
+
  5. Клонировать репозиторий JSON на локальный компьютер.
+git clone https://github.com/Alena-Grigoreva-QA/JSON
+
  6. Внутри локального JSON создать файл “new.json”.
+# убедиться, что находимся в папке JSON 
+# либо перейти 
+cd ~Projects/group_30/JSON
+touch new.json
+
  7. Добавить файл под гит.
+git add new.json
+
  8. Закоммитить файл.
+git commit -m "Initial commit"
+
  9. Отправить файл на внешний GitHub репозиторий.
+git push
+
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json
+i
+{
+ "first name": "Acelotl",
+ "last name": "Groga",
+ "age": 100,
+ "pets": 1,
+ "desired salary": "enough to be able to travel" 
+}
+Esc # выйти из режима редактирования
+:wq
+
  11. Отправить изменения на внешний репозиторий.
+git add -u # обновить отслеживаемые файлы
+git push
+
  12. Создать файл preferences.json
+touch preferences.json
+
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json
+i
+{
+ "favorite movie": "Spirit", 
+ "favorite TV show": "no time to watch any", 
+ "favorite food": "avocados", 
+ "favorite season": "now", 
+ "country to visit": "all of them"
+}
+Esc # выйти из режима редактирования
+:wq
+
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+touch skills.json
+vim skills.json
+i
+{
+ "skill 1": "terminal",
+ "skill 2": "git",
+ "skill 3": "postman",
+ "skill 4": "javascript",
+ "skill 5": "to drink a lot of coffee not to sleep making homework"
+}
+Esc # выйти из режима редактирования
+:wq
+
  15. Отправить сразу 2 файла на внешний репозиторий.
+git add -A
+git commit -m "two files added"
+git push
+
  16. На веб интерфейсе создать файл bug_report.json.
+Add file -> Create new file
+
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+# Нажать кнопку "Commit changes".
+
+
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+# ... -> Edit file
+{
+"Bug Report": "new bug report",
+	"Bug ID": 101,
+	"Bug Name": "Button SEARCH is not working", 
+	"Summary": "Nothing happens when button SEARCH is clicked",
+	"Submit Date": "11.11.2022",           
+	"Reporter": "Acelotl Grada",              
+	"Operating System": "Windows 10",
+	"Browser": "Google Chrome",     
+	"URL": "https://someaddress",        
+	"Steps to reproduce": [
+		"open https://someaddress",
+		"type name and/or last name of the author for example Stephen King", 
+		"click on the search button"
+	],
+	"Expected result": "Authors and books by them will be displayed",
+	"Actual result": "The page stays the same, nothing happens"
+}
+
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+# Нажать кнопку "Commit changes".
+
  20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
 
 
 XML
  21. Создать внешний репозиторий c названием XML.
+https://github.com/Alena-Grigoreva-QA/XML
+
  22. Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/Alena-Grigoreva-QA/XML
+
  23. Внутри локального XML создать файл “new.xml”.
+touch new.xml
+
  24. Добавить файл под гит.
+git add new.xml
+
  25. Закоммитить файл.
+git commit -m "Initial commit"
+
  26. Отправить файл на внешний GitHub репозиторий.
+git push
+
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+i
+<?xml version="1.0"?>
+<ME>
+  <FIRST_NAME>Acelotl</FIRST_NAME>
+  <LAST_NAME>Groga</LAST_NAME>
+  <AGE>100</AGE>
+  <PETS>1</PETS>
+  <DESIRED_SALARY>enough to be able to travel</DESIRED_SALARY>
+</ME>
+Esc # выйти из режима редактирования
+:wq
+ 
  28. Отправить изменения на внешний репозиторий.
+git commit -am "some info added"
+git push
+
  29. Создать файл preferences.xml
+touch preferences.xml
+
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml
+i
+<?xml version="1.0"?>
+<ME2>
+	<favorite_movie>Spirit</favorite_movie> 
+	<favorite_TV_show>no time to watch any</favorite_TV_show>
+	<favorite_food>avocados</favorite_food> 
+	<favorite_season>now</favorite_season> 
+	<country_to_visit>all of them</country_to_visit>
+ </ME2>
+ Esc # выйти из режима редактирования
+:wq
+
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skills.xml
+vim skills.xml
+i
+<?xml version="1.0"?>
+<MY_SKILLS>
+ 	<skill_1>terminal</skill_1>
+	<skill_2>git</skill_2>
+	<skill_3>postman</skill_3>
+	<skill_4>javascript<skill_4>
+	<skill_5>to drink a lot of coffee not to sleep making homework</skill_5>
+</MY_SKILLS>
+
  32. Сделать коммит в одну строку.
+git add .
+git commit -m "added skills.xml and preferences.xml"
+# git commit -am "message" работает только для отслеживаемых файлов
+
  33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
  34. На веб интерфейсе создать файл bug_report.xml.
+# Add file -> Create new file
+# https://github.com/Alena-Grigoreva-QA/XML/blob/master/bug_report.xml
+
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+# Нажать кнопку "Commit changes".
+
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<Bug_report>
+	<BugID>101</BugID>
+	<Bug_Name>Button SEARCH is not working</Bug_Name>
+	<Summary>Nothing happens when button SEARCH is clicked</Summary>
+	<Submit_Date>11-11-2022</Submit_Date>
+	<Reporter>Acelotl Grada</Reporter>
+	<Operating_System>Windows 10</Operating_System>
+	<Browser>Google Chrome</Browser>
+	<URL>https://someaddress</URL>
+	<Steps_to_reproduce>
+		<step_1>open https://someaddress</step_1>
+		<step_2>type name and/or last name of the author for example Stephen King</step_2>
+		<step_3>click on the search button</step_3>
+	</Steps_to_reproduce>
+	<Expected_result>Authors and books by them will be displayed</Expected_result>
+	<Actual_result>The page stays the same, nothing happens</Actual_result>
+</Bug_report>
+
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+# Нажать кнопку "Commit changes".
+
  38. Синхронизировать внешний и локальный репозиторий XML
+git pull
