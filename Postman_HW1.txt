@@ -1,0 +1,262 @@
+Postman_HW_1
+
+Создать запросы в Postman.
+
+Protocol: http
+IP: 162.55.220.72
+Port: 5005
+
+EP_1
+Method: GET
+EndPoint: /get_method
+request url params: 
+ name: str
+ age: int
+
+response: 
+[
+    “Str”,
+    “Str”
+]
+
+Request url:
+http://162.55.220.72:5005/get_method?age=51&name=Alyona
+
+Response:
+[
+    "Alyona",
+    "51"
+]
+==================
+
+EP_2
+Method: POST
+EndPoint: /user_info_3
+request form data: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': age,
+          'salary': salary,
+          'family': {'children': [['Alex', 24], ['Kate', 12]],
+                     'u_salary_1_5_year': salary * 4}}
+
+
+Request url:
+http://162.55.220.72:5005/user_info_3
+Body: (form-data)
+name, age, salary
+
+Response:
+{
+    "age": "51",
+    "family": {
+        "children": [
+            [
+                "Alex",
+                24
+            ],
+            [
+                "Kate",
+                12
+            ]
+        ],
+        "u_salary_1_5_year": 2000
+    },
+    "name": "Alyona",
+    "salary": 500
+}
+==================
+
+EP_3
+Method: GET
+EndPoint: /object_info_1
+request url params: 
+ name: str
+ age: int
+ weight: int
+
+response: 
+{'name': name,
+          'age': age,
+          'daily_food': weight * 0.012,
+          'daily_sleep': weight * 2.5}
+
+Request url:
+http://162.55.220.72:5005/object_info_1?age=51&name=Alyona&weight=55
+Response:
+{
+    "age": 51,
+    "daily_food": 0.66,
+    "daily_sleep": 137.5,
+    "name": "Alyona"
+}
+==================
+
+EP_4
+Method: GET
+EndPoint: /object_info_2
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'start_qa_salary': salary,
+          'qa_salary_after_6_months': salary * 2,
+          'qa_salary_after_12_months': salary * 2.7,
+          'qa_salary_after_1.5_year': salary * 3.3,
+          'qa_salary_after_3.5_years': salary * 3.8,
+          'person': {'u_name': [user_name, salary, age],
+                     'u_age': age,
+                     'u_salary_5_years': salary * 4.2}
+          }
+
+Request url:
+http://162.55.220.72:5005/object_info_2?age=51&name=Alyona&salary=550
+
+Response:
+{
+    "person": {
+        "u_age": 51,
+        "u_name": [
+            "Alyona",
+            550,
+            51
+        ],
+        "u_salary_5_years": 2310.0
+    },
+    "qa_salary_after_1.5_year": 1815.0,
+    "qa_salary_after_12_months": 1485.0,
+    "qa_salary_after_3.5_years": 2090.0,
+    "qa_salary_after_6_months": 1100,
+    "start_qa_salary": 550
+}
+==================
+
+EP_5
+Method: GET
+EndPoint: /object_info_3
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': age,
+          'salary': salary,
+          'family': {'children': [['Alex', 24], ['Kate', 12]],
+                     'pets': {'cat':{'name':'Sunny',
+                                     'age': 3},
+                              'dog':{'name':'Luky',
+                                     'age': 4}},
+                     'u_salary_1_5_year': salary * 4}
+          }
+
+Request url:
+http://162.55.220.72:5005/object_info_3?age=51&name=Alyona&salary=550
+
+Response:
+{
+    "age": "51",
+    "family": {
+        "children": [
+            [
+                "Alex",
+                24
+            ],
+            [
+                "Kate",
+                12
+            ]
+        ],
+        "pets": {
+            "cat": {
+                "age": 3,
+                "name": "Sunny"
+            },
+            "dog": {
+                "age": 4,
+                "name": "Luky"
+            }
+        },
+        "u_salary_1_5_year": 2200
+    },
+    "name": "Alyona",
+    "salary": 550
+}
+==================
+
+EP_6
+Method: GET
+EndPoint: /object_info_4
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': int(age),
+          'salary': [salary, str(salary * 2), str(salary * 3)]}
+
+Request url: 
+http://162.55.220.72:5005/object_info_4?age=51&name=Alyona&salary=550
+
+Response:
+{
+    "age": 51,
+    "name": "Alyona",
+    "salary": [
+        550,
+        "1100",
+        "1650"
+    ]
+}
+==================
+
+EP_7
+Method: POST
+EndPoint: /user_info_2
+request form data: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'start_qa_salary': salary,
+          'qa_salary_after_6_months': salary * 2,
+          'qa_salary_after_12_months': salary * 2.7,
+          'qa_salary_after_1.5_year': salary * 3.3,
+          'qa_salary_after_3.5_years': salary * 3.8,
+          'person': {'u_name': [user_name, salary, age],
+                     'u_age': age,
+                     'u_salary_5_years': salary * 4.2}
+          }
+
+Request url:
+http://162.55.220.72:5005/user_info_2
+Body: (form-data)
+name, age, salary
+
+Response:
+{
+    "person": {
+        "u_age": 51,
+        "u_name": [
+            "Alyona",
+            500,
+            51
+        ],
+        "u_salary_5_years": 2100.0
+    },
+    "qa_salary_after_1.5_year": 1650.0,
+    "qa_salary_after_12_months": 1350.0,
+    "qa_salary_after_3.5_years": 1900.0,
+    "qa_salary_after_6_months": 1000,
+    "start_qa_salary": 500
+}
