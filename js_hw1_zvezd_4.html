@@ -1,0 +1,32 @@
+<html>
+<body>
+    <h1>Проверка возраста</h1>
+    <script>
+        let age_1 = prompt("Please enter age_1 value");
+		let age_2 = 18;
+		let age_3 = 60;
+
+		const checkAge = function(age_1, age_2, age_3) {
+		    if(age_1 == +age_1) {
+		            age_1 == +age_1
+		        } 
+		    else {
+		        return alert("You can use only numbers for age. Your input:", age_1) 
+		    }
+		    //console.log(age_1, age_2, age_3)
+		    if (age_1 < age_2) {
+		        alert("You don't have access cause your age is " + age_1 + " It’s less then ")
+		    } else if (age_1 >= age_2 & age_1 < age_3) {
+		        alert("Welcome!")
+		    } else if (age_1 > age_3) {
+		        alert("Keep calm and look Culture channel")
+		    } else {
+		        alert("Technical work")
+		    }    
+		}
+
+		checkAge(age_1, age_2, age_3)
+    </script>
+    <h1>Окончание расчёта</h1>
+</body>
+</html>

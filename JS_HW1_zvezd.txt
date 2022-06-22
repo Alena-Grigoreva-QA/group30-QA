@@ -111,3 +111,73 @@ const checkAge = function(age_1, age_2, age_3) {
 }
 
 checkAge(age_1, age_2, age_3)
+
+Supermassive black hole, [20.06.2022 17:46]
+очень много кода
+
+Supermassive black hole, [20.06.2022 17:46]
+во-первых зачем тебе на вход принимать еще и 18 и 60?)
+
+Supermassive black hole, [20.06.2022 17:47]
+они ж не меняются, задала константой и всё
+
+Supermassive black hole, [20.06.2022 17:47]
+чтобы потом не нужно было цикл делать по аргументам
+
+Supermassive black hole, [20.06.2022 17:47]
+плюс проверки можно сократить до if(age == +age)
+
+Supermassive black hole, [20.06.2022 17:48]
+ну мы ж проверяли при разном age1
+
+Supermassive black hole, [20.06.2022 17:48]
+ag2 всегда 18
+
+Supermassive black hole, [20.06.2022 17:48]
+age3 всегда 60)
+
+Supermassive black hole, [20.06.2022 17:50]
+так
+
+Supermassive black hole, [20.06.2022 17:50]
+я может слепой
+
+Supermassive black hole, [20.06.2022 17:50]
+где хтмл?
+
+Supermassive black hole, [20.06.2022 17:52]
+в задаче указано привязать вёрстку)
+
+<html>
+<body>
+    <h1>Проверка возраста</h1>
+    <script type="text/javascript">
+        let age_1 = prompt("Please enter age_1 value");
+		let age_2 = 18;
+		let age_3 = 60;
+
+		const checkAge = function(age_1, age_2, age_3) {
+		    if(age_1 == +age_1) {
+		            age_1 == +age_1
+		        } 
+		    else {
+		        return console.log("You can use only numbers for age. Your input:", age_1) 
+		    }
+		    }
+		    //console.log(age_1, age_2, age_3)
+		    if (age_1 < age_2) {
+		        console.log("You don't have access cause your age is " + age_1 + " It’s less then ")
+		    } else if (age_1 >= age_2 & age_1 < age_3) {
+		        console.log("Welcome!")
+		    } else if (age_1 > age_3) {
+		        console.log("Keep calm and look Culture channel")
+		    } else {
+		        console.log("Technical work")
+		    }    
+		}
+
+		checkAge(age_1, age_2, age_3)
+    </script>
+    <h1>Окончание расчёта</h1>
+</body>
+</html>
