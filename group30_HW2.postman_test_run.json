@@ -1,0 +1,371 @@
+{
+	"id": "820f1211-cb5c-4ea8-9443-f7d75dcfcb47",
+	"name": "group30_HW2",
+	"timestamp": "2022-07-04T13:26:50.360Z",
+	"collection_id": "19096281-9994358c-ff4a-46d7-8352-de280c3515a8",
+	"folder_id": 0,
+	"environment_id": "19096281-b1ab71f5-b62b-4259-b1e6-1074dc1475c5",
+	"totalPass": 39,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0dc72366-815d-4115-ba83-a5c87660c4ea",
+			"name": "get_first",
+			"url": "http://162.55.220.72:5005/first",
+			"time": 452,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				452
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "1cfb8294-e72d-400c-b3bd-160a580576aa",
+			"name": "post_user_info_3",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 438,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Person_name_manual": true,
+				"Person_age_manual": true,
+				"Person_salary_manual": true,
+				"Person_name": true,
+				"Person_age": true,
+				"Person_salary": true,
+				"Salary_4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person_name_manual": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person_age_manual": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person_salary_manual": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person_age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary_4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				438
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Person_name_manual": true,
+					"Person_age_manual": true,
+					"Person_salary_manual": true,
+					"Person_name": true,
+					"Person_age": true,
+					"Person_salary": true,
+					"Salary_4": true
+				}
+			]
+		},
+		{
+			"id": "f8564a61-96cf-4996-975f-fec3b47ab9dd",
+			"name": "get_object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?age=51&name=Alyona&salary=550",
+			"time": 446,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name": true,
+				"Check age": true,
+				"Check salary": true,
+				"Check dog for name": true,
+				"Check dog for age": true,
+				"Check jsonData.family.pets.dog name is Luky": true,
+				"Check jsonData.family.pets.dog age is 4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog for name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog for age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check jsonData.family.pets.dog name is Luky": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check jsonData.family.pets.dog age is 4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				446
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name": true,
+					"Check age": true,
+					"Check salary": true,
+					"Check dog for name": true,
+					"Check dog for age": true,
+					"Check jsonData.family.pets.dog name is Luky": true,
+					"Check jsonData.family.pets.dog age is 4": true
+				}
+			]
+		},
+		{
+			"id": "510fcb9a-72a7-476f-b67b-e22b336e1422",
+			"name": "get_object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?age=51&name=Alyona&salary=550",
+			"time": 439,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check name": true,
+				"Check age": true,
+				"Check salary": true,
+				"Check salary[1]": true,
+				"Check salary[2]": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary[1]": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check salary[2]": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				439
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check name": true,
+					"Check age": true,
+					"Check salary": true,
+					"Check salary[1]": true,
+					"Check salary[2]": true
+				}
+			]
+		},
+		{
+			"id": "f9b9075c-66ca-4977-aa89-2eeacb2a2009",
+			"name": "post_user_info_2",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 442,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body ownProperty start_qa_salary": true,
+				"Body ownProperty qa_salary_after_6_months": true,
+				"Body ownProperty qa_salary_after_12_months": true,
+				"Body ownProperty qa_salary_after_1.5_year": true,
+				"Body ownProperty qa_salary_after_3.5_years": true,
+				"Body ownProperty person": true,
+				"Check if start_qa_salary from response equal to salary from request": true,
+				"Check if qa_salary_after_6_months from response equal to salary*2 from request": true,
+				"Check if qa_salary_after_12_months from response equal to salary*2.7 from request": true,
+				"Check if qa_salary_after_1.5_year from response equal to salary*3.3 from request": true,
+				"Check if qa_salary_after_3.5_years from response equal to salary*3.8 from request": true,
+				"Check if value of jsonData.person.u_name[1] from response equal to salary from request": true,
+				"Check if u_salary_5_years from response equal to salary*4.2 from request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body ownProperty start_qa_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body ownProperty qa_salary_after_6_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body ownProperty qa_salary_after_12_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body ownProperty qa_salary_after_1.5_year": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body ownProperty qa_salary_after_3.5_years": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body ownProperty person": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if start_qa_salary from response equal to salary from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if qa_salary_after_6_months from response equal to salary*2 from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if qa_salary_after_12_months from response equal to salary*2.7 from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if qa_salary_after_1.5_year from response equal to salary*3.3 from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if qa_salary_after_3.5_years from response equal to salary*3.8 from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if value of jsonData.person.u_name[1] from response equal to salary from request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check if u_salary_5_years from response equal to salary*4.2 from request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				442
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body ownProperty start_qa_salary": true,
+					"Body ownProperty qa_salary_after_6_months": true,
+					"Body ownProperty qa_salary_after_12_months": true,
+					"Body ownProperty qa_salary_after_1.5_year": true,
+					"Body ownProperty qa_salary_after_3.5_years": true,
+					"Body ownProperty person": true,
+					"Check if start_qa_salary from response equal to salary from request": true,
+					"Check if qa_salary_after_6_months from response equal to salary*2 from request": true,
+					"Check if qa_salary_after_12_months from response equal to salary*2.7 from request": true,
+					"Check if qa_salary_after_1.5_year from response equal to salary*3.3 from request": true,
+					"Check if qa_salary_after_3.5_years from response equal to salary*3.8 from request": true,
+					"Check if value of jsonData.person.u_name[1] from response equal to salary from request": true,
+					"Check if u_salary_5_years from response equal to salary*4.2 from request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2217,
+	"collection": {
+		"requests": [
+			{
+				"id": "0dc72366-815d-4115-ba83-a5c87660c4ea",
+				"method": "GET"
+			},
+			{
+				"id": "1cfb8294-e72d-400c-b3bd-160a580576aa",
+				"method": "POST"
+			},
+			{
+				"id": "f8564a61-96cf-4996-975f-fec3b47ab9dd",
+				"method": "GET"
+			},
+			{
+				"id": "510fcb9a-72a7-476f-b67b-e22b336e1422",
+				"method": "GET"
+			},
+			{
+				"id": "f9b9075c-66ca-4977-aa89-2eeacb2a2009",
+				"method": "POST"
+			}
+		]
+	}
+}
