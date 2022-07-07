@@ -1,0 +1,248 @@
+{
+	"id": "1c677ab4-1f50-42a5-bf3f-b172ed58148a",
+	"name": "group30_HW2_Anatoly",
+	"timestamp": "2022-07-07T00:37:02.624Z",
+	"collection_id": "19096281-2be119a0-2ccc-4f23-871f-8fca8b8aa3d5",
+	"folder_id": 0,
+	"environment_id": "19096281-b1ab71f5-b62b-4259-b1e6-1074dc1475c5",
+	"totalPass": 17,
+	"totalFail": 10,
+	"results": [
+		{
+			"id": "0a659fa4-98eb-4328-9051-9d7993d9b645",
+			"name": "task 1",
+			"time": 490,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"NOT 200 code with age == 18, salary == '1' and name == nAm": true
+			},
+			"testPassFailCounts": {
+				"200 code with age == 18, salary == 1 and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"200 code with age == 120, salary == 1000000 and name == AAAAaaaa _!@#$1234ФФФФапапа?*()__+%ASDB": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == 18, salary == 1 and name == Aa": {
+					"pass": 0,
+					"fail": 1
+				},
+				"200 code with age == 18, salary == 1 and name == AAAAaaaa _!@#$1234ФФФФапапа?*()__+%ASDBf": {
+					"pass": 1,
+					"fail": 0
+				},
+				"200 code with age == 18, salary == 1 and name == naa": {
+					"pass": 2,
+					"fail": 0
+				},
+				"NOT 200 code with age == 18, salary == 1 and name == ": {
+					"pass": 0,
+					"fail": 2
+				},
+				"200 code with age == 18, salary == 1 and name == <script>alert('name')</script>": {
+					"pass": 1,
+					"fail": 0
+				},
+				"200 code with age == 18, salary == 1 and name == <b>name</b>": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == 17, salary == 1 and name == nAm": {
+					"pass": 0,
+					"fail": 1
+				},
+				"NOT 200 code with age == 121, salary == 1 and name == nAm": {
+					"pass": 0,
+					"fail": 1
+				},
+				"NOT 200 code with age == , salary == 1 and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == a! +, salary == 1 and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == true, salary == 1 and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == 18.1, salary == 1 and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == -18, salary == 1 and name == nAm": {
+					"pass": 0,
+					"fail": 1
+				},
+				"NOT 200 code with age == '18', salary == 1 and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == 0, salary == 1 and name == nAm": {
+					"pass": 0,
+					"fail": 1
+				},
+				"NOT 200 code with age == 18, salary == 0 and name == nAm": {
+					"pass": 0,
+					"fail": 1
+				},
+				"NOT 200 code with age == 18, salary == -1 and name == nAm": {
+					"pass": 0,
+					"fail": 1
+				},
+				"NOT 200 code with age == 18, salary == 1.1 and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == 18, salary == 1000001 and name == nAm": {
+					"pass": 0,
+					"fail": 1
+				},
+				"NOT 200 code with age == 18, salary == true and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"200 code with age == 18, salary == 10 and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == 18, salary == aa!@# and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				},
+				"NOT 200 code with age == 18, salary == '1' and name == nAm": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				498,
+				516,
+				465,
+				559,
+				462,
+				510,
+				448,
+				455,
+				444,
+				454,
+				524,
+				461,
+				551,
+				480,
+				475,
+				520,
+				476,
+				559,
+				500,
+				549,
+				448,
+				503,
+				450,
+				492,
+				475,
+				498,
+				490
+			],
+			"allTests": [
+				{
+					"200 code with age == 18, salary == 1 and name == nAm": true
+				},
+				{
+					"200 code with age == 120, salary == 1000000 and name == AAAAaaaa _!@#$1234ФФФФапапа?*()__+%ASDB": true
+				},
+				{
+					"NOT 200 code with age == 18, salary == 1 and name == Aa": false
+				},
+				{
+					"200 code with age == 18, salary == 1 and name == AAAAaaaa _!@#$1234ФФФФапапа?*()__+%ASDBf": true
+				},
+				{
+					"200 code with age == 18, salary == 1 and name == naa": true
+				},
+				{
+					"200 code with age == 18, salary == 1 and name == naa": true
+				},
+				{
+					"NOT 200 code with age == 18, salary == 1 and name == ": false
+				},
+				{
+					"NOT 200 code with age == 18, salary == 1 and name == ": false
+				},
+				{
+					"200 code with age == 18, salary == 1 and name == <script>alert('name')</script>": true
+				},
+				{
+					"200 code with age == 18, salary == 1 and name == <b>name</b>": true
+				},
+				{
+					"NOT 200 code with age == 17, salary == 1 and name == nAm": false
+				},
+				{
+					"NOT 200 code with age == 121, salary == 1 and name == nAm": false
+				},
+				{
+					"NOT 200 code with age == , salary == 1 and name == nAm": true
+				},
+				{
+					"NOT 200 code with age == a! +, salary == 1 and name == nAm": true
+				},
+				{
+					"NOT 200 code with age == true, salary == 1 and name == nAm": true
+				},
+				{
+					"NOT 200 code with age == 18.1, salary == 1 and name == nAm": true
+				},
+				{
+					"NOT 200 code with age == -18, salary == 1 and name == nAm": false
+				},
+				{
+					"NOT 200 code with age == '18', salary == 1 and name == nAm": true
+				},
+				{
+					"NOT 200 code with age == 0, salary == 1 and name == nAm": false
+				},
+				{
+					"NOT 200 code with age == 18, salary == 0 and name == nAm": false
+				},
+				{
+					"NOT 200 code with age == 18, salary == -1 and name == nAm": false
+				},
+				{
+					"NOT 200 code with age == 18, salary == 1.1 and name == nAm": true
+				},
+				{
+					"NOT 200 code with age == 18, salary == 1000001 and name == nAm": false
+				},
+				{
+					"NOT 200 code with age == 18, salary == true and name == nAm": true
+				},
+				{
+					"200 code with age == 18, salary == 10 and name == nAm": true
+				},
+				{
+					"NOT 200 code with age == 18, salary == aa!@# and name == nAm": true
+				},
+				{
+					"NOT 200 code with age == 18, salary == '1' and name == nAm": true
+				}
+			]
+		}
+	],
+	"count": 27,
+	"totalTime": 13262,
+	"collection": {
+		"requests": [
+			{
+				"id": "0a659fa4-98eb-4328-9051-9d7993d9b645",
+				"method": "POST"
+			}
+		]
+	}
+}
